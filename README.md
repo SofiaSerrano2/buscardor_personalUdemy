@@ -1,2 +1,3 @@
 # buscardor_personalUdemy
-Created with CodeSandbox
+
+Intento programar un buscador de personas con un tutorial de udemy echo con react
