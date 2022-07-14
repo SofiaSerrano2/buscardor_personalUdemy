@@ -1,0 +1,39 @@
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+//es la parte del titulo y el logo
+.buscador_logos{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  .nombre_pag{
+    text-align: center;
+    color:#666666;
+  }
+}
+//input y el boton para buscar
+.buscador_inputs{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 25rem;
+  height: 1.6rem;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  .input{
+    border-radius: 100px;
+    border-style: none;
+    background-color: #D9D9D9;
+    height: 1.4rem;
+    width:24rem ;
+  }
+  .lupa_img{
+    margin: 4px 0px 0px 0px;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.6rem;
+  }
+}  
